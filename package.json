@@ -1,0 +1,19 @@
+{
+  "name": "misk-chat",
+  "version": "0.15.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^12.0.0",
+    "geoip-lite": "^1.4.10"
+  }
+}
